@@ -1,0 +1,15 @@
+{
+  "name": "test-service",
+  "version": "1.0.0",
+  "description": "Default Serverless Cloud service",
+  "main": "index.js",
+  "scripts": {
+    "prettify": "prettier --write \"**/*.{css,html,js,json,md,yaml,yml}\""
+  },
+  "dependencies": {
+    "@slack/web-api": "^6.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
